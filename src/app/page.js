@@ -4,7 +4,7 @@ export default function Home() {
   <div className="text-center ">
   <nav class="navbar navbar-expand-lg bg-body-tertiary">
   <div class="container-fluid">
-    <a class="navbar-brand"  href="#"><img src="https://scontent.fcnx4-1.fna.fbcdn.net/v/t39.30808-1/310999359_104386182454658_3734706181317281372_n.jpg?stp=c77.56.213.213a_dst-jpg_s160x160&_nc_cat=105&ccb=1-7&_nc_sid=0ecb9b&_nc_ohc=7BF6bX1PYbEQ7kNvgHlfvt8&_nc_ht=scontent.fcnx4-1.fna&oh=00_AYCQxSlwM6kmfWtY6i5g0CLa-ShM8oExWwUOib8_rY38VQ&oe=66913E4F" alt="" width={100}></img></a>
+    <a class="navbar-brand"  href="/"><img src="https://upload.wikimedia.org/wikipedia/commons/2/27/Yorushika_Logo.jpg" alt="" width={70}></img></a>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
@@ -25,7 +25,7 @@ export default function Home() {
       </ul>
       <nav className="navbar bg-body-tertiary">
   <form className="container-fluid justify-content-start ">
-    <button className="btn btn-outline-success me-2" type="button" ><a class="nav-link" href="https://getbootstrap.com/docs/5.3/examples/sign-in/">signin</a></button>
+    <button className="btn btn-outline-success me-2" type="button" ><a class="nav-link" href="/signin">signin</a></button>
     <button className="btn btn-outline-success me-2" type="button" ><a class="nav-link"  href="/signup">signup</a></button>
   </form>
 </nav>
@@ -38,7 +38,7 @@ export default function Home() {
   <div id="carouselExample" className="carousel slide">
   <div className="carousel-inner">
     <div className="carousel-item active">
-      <img src="https://article.tcdc.or.th/uploads/article-detail-img/tmp/ecVEjuYKA7dk9ZCL2l6W84eSm10zV5LoG6Oflyzj.jpeg?10102023045648" className="d-block w-100  " alt="..." />
+      <img src="https://lh3.googleusercontent.com/ufS1qifPTVxSR1_xBz6F75iymu07Qdgplp0Qp3uJBWZuSrpgP6GWFkog-99E8bvH6o5xAmnzzNENskFZ=w1440-h600-p-l90-rj" className="d-block w-100  " alt="..." />
     </div>
     <div className="carousel-item">
       <img src="https://thonglorpet.com/_content_html_editor_upload/images/0B520ADA-2CE7-3912-A491-13C27A99ECC4.png" className="d-block w-100" alt="..." />
@@ -60,29 +60,29 @@ export default function Home() {
     
   <div className="row ">
   <div className="card" style={{width: '39.6rem'}}>
-  <img src="https://scontent.fcnx4-1.fna.fbcdn.net/v/t39.30808-6/318474286_1167505503972267_3838078409158600808_n.jpg?_nc_cat=101&ccb=1-7&_nc_sid=6ee11a&_nc_ohc=1tvTrPxn4JoQ7kNvgHeYY5v&_nc_ht=scontent.fcnx4-1.fna&oh=00_AYAii6mkXsZjVZc4X4_zHah-IQRe8gRXMqZvT5WhEsWpew&oe=66911F8F" className="card-img-top" alt="..." />
+  <img src="https://linkstorage.linkfire.com/medialinks/images/2b0f7256-8b5c-440b-bde1-6d68c488afb4/artwork-440x440.jpg" className="card-img-top" alt="..." />
   <div className="card-body">
-    <h5 className="card-title">ยอด เก</h5>
-    <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-    <a href="https://www.facebook.com/TheCarlton4150" className="btn btn-primary">Go somewhere</a>
+    <h5 className="card-title">【配信】Digital Single「忘れてください」</h5>
+    <p className="card-text">2024.07.13 RELEASEヨルシカ 配信サイト：</p>
+    <a href="https://yorushika.lnk.to/forget_it" className="btn btn-primary">Play</a>
   </div>
 </div>
 
 <div className="card" style={{width: '39.6rem'}}>
-  <img src="https://scontent.fcnx4-1.fna.fbcdn.net/v/t39.30808-1/316041110_1279123546208297_4046811996068980516_n.jpg?stp=dst-jpg_p200x200&_nc_cat=109&ccb=1-7&_nc_sid=0ecb9b&_nc_ohc=8lsXRpBfkycQ7kNvgGUczR4&_nc_ht=scontent.fcnx4-1.fna&oh=00_AYBIqdsoDbWsjTZuAx8NqQf0iJck0uBU8qG5jb4QTfUzOA&oe=66914A37" className="card-img-top" alt="..." />
+  <img src="https://linkstorage.linkfire.com/medialinks/images/39f8cf45-99cb-4878-998c-a677d862469d/artwork-440x440.jpg" className="card-img-top" alt="..." />
   <div className="card-body">
-    <h5 className="card-title">มหา เกไม่มีใครเทียบติด</h5>
-    <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-    <a href="https://www.facebook.com/profile.php?id=100023319908389" className="btn btn-primary">Go somewhere</a>
+    <h5 className="card-title">【配信】Digital Single「ルバート」</h5>
+    <p className="card-text">2024.05.29 RELEASEヨルシカ 配信サイト：</p>
+    <a href="https://yorushika.lnk.to/Rubato" className="btn btn-primary">Play</a>
   </div>
 </div>
     
 <div className="card" style={{width: '39.6rem'}}>
-  <img src="https://scontent.fcnx4-1.fna.fbcdn.net/v/t39.30808-6/412689284_1116585446032744_5723252026230995107_n.jpg?_nc_cat=108&ccb=1-7&_nc_sid=6ee11a&_nc_ohc=g81v6nqXTtIQ7kNvgFBGvhc&_nc_ht=scontent.fcnx4-1.fna&oh=00_AYDv-elTbXKPs7fTIZXBGhIznRm_Zen-joWOyQIrPyFtvw&oe=669136B2" className="card-img-top" alt="..." />
+  <img src="https://linkstorage.linkfire.com/medialinks/images/917b2c96-bb0f-4e54-9659-deba14a0f328/artwork-440x440.jpg" className="card-img-top" alt="..." />
   <div className="card-body">
-    <h5 className="card-title">สุดเก</h5>
-    <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-    <a href="https://www.facebook.com/nicky.phasut.9" className="btn btn-primary">Go somewhere</a>
+    <h5 className="card-title">【配信】Digital Single「晴る」</h5>
+    <p className="card-text">2024.01.05 RELEASEヨルシカ 配信サイト：</p>
+    <a href="https://yorushika.lnk.to/sunny" className="btn btn-primary">Play</a>
   </div>
 </div>
   </div>
